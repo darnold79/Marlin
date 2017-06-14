@@ -948,9 +948,6 @@
   #define GRID_MAX_POINTS_X 5
   #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
-  #define ABL_GRID_POINTS_X 5
-  #define ABL_GRID_POINTS_Y ABL_GRID_POINTS_X
-
   // Set the boundaries for probing (where the probe can reach).
   #define DELTA_PROBEABLE_RADIUS (DELTA_PRINTABLE_RADIUS*.8)
   #define LEFT_PROBE_BED_POSITION -(DELTA_PROBEABLE_RADIUS*.8)
