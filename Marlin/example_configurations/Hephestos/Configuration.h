@@ -1144,7 +1144,11 @@
  *  - Click the controller to view the LCD menu
  *  - The LCD will display Japanese, Western, or Cyrillic text
  *
+<<<<<<< HEAD
  * See https://github.com/MarlinFirmware/Marlin/wiki/LCD-Language
+=======
+ * See https: *github.com/MarlinFirmware/Marlin/wiki/LCD-Language
+>>>>>>> RC
  *
  * :['JAPANESE', 'WESTERN', 'CYRILLIC']
  */
@@ -1160,7 +1164,11 @@
  * IMPORTANT: The U8glib library is required for Full Graphic Display!
  *            https://github.com/olikraus/U8glib_Arduino
  */
+<<<<<<< HEAD
 //#define ULTRA_LCD   // Character based
+=======
+#define ULTRA_LCD   // Character based
+>>>>>>> RC
 //#define DOGLCD      // Full graphics display
 
 /**

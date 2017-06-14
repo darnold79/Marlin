@@ -238,6 +238,34 @@
 
 #if LCD_HEIGHT >= 4
   // Up to 3 lines allowed
+<<<<<<< HEAD
+  #define MSG_FILAMENT_CHANGE_INIT_1          "Warte auf den"
+  #define MSG_FILAMENT_CHANGE_INIT_2          "Start des "
+  #define MSG_FILAMENT_CHANGE_INIT_3          "Filamentwechsels"
+  #define MSG_FILAMENT_CHANGE_UNLOAD_1        "Warte auf"
+  #define MSG_FILAMENT_CHANGE_UNLOAD_2        "Herausnahme"
+  #define MSG_FILAMENT_CHANGE_UNLOAD_3        "des Filaments"
+  #define MSG_FILAMENT_CHANGE_INSERT_1        "Filament einlegen"
+  #define MSG_FILAMENT_CHANGE_INSERT_2        "und Knopf"
+  #define MSG_FILAMENT_CHANGE_INSERT_3        "drücken..."
+  #define MSG_FILAMENT_CHANGE_LOAD_1          "Warte auf"
+  #define MSG_FILAMENT_CHANGE_LOAD_2          "Laden des"
+  #define MSG_FILAMENT_CHANGE_LOAD_3          "Filaments"
+  #define MSG_FILAMENT_CHANGE_EXTRUDE_1       "Warte auf"
+  #define MSG_FILAMENT_CHANGE_EXTRUDE_2       "Extrusion des"
+  #define MSG_FILAMENT_CHANGE_EXTRUDE_3       "Filaments"
+  #define MSG_FILAMENT_CHANGE_RESUME_1        "Warte auf"
+  #define MSG_FILAMENT_CHANGE_RESUME_2        "Fortsetzung des"
+  #define MSG_FILAMENT_CHANGE_RESUME_3        "Druckes"
+#else // LCD_HEIGHT < 4
+  // Up to 2 lines allowed
+  #define MSG_FILAMENT_CHANGE_INIT_1          "Bitte warten..."
+  #define MSG_FILAMENT_CHANGE_UNLOAD_1        "Auswerfen..."
+  #define MSG_FILAMENT_CHANGE_INSERT_1        "Laden und Klick"
+  #define MSG_FILAMENT_CHANGE_LOAD_1          "Laden..."
+  #define MSG_FILAMENT_CHANGE_EXTRUDE_1       "Extrudieren..."
+  #define MSG_FILAMENT_CHANGE_RESUME_1        "Weitermachen..."
+=======
   #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Warte auf den")
   #define MSG_FILAMENT_CHANGE_INIT_2          _UxGT("Start des")
   #define MSG_FILAMENT_CHANGE_INIT_3          _UxGT("Filamentwechsels")
@@ -269,6 +297,7 @@
   #define MSG_FILAMENT_CHANGE_LOAD_1          _UxGT("Laden...")
   #define MSG_FILAMENT_CHANGE_EXTRUDE_1       _UxGT("Extrudieren...")
   #define MSG_FILAMENT_CHANGE_RESUME_1        _UxGT("Fortsetzen...")
+>>>>>>> upstream/1.1.x
 #endif // LCD_HEIGHT < 4
 
 #endif // LANGUAGE_DE_H

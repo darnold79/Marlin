@@ -1274,7 +1274,11 @@
  *  - Click the controller to view the LCD menu
  *  - The LCD will display Japanese, Western, or Cyrillic text
  *
+<<<<<<< HEAD
  * See https://github.com/MarlinFirmware/Marlin/wiki/LCD-Language
+=======
+ * See https: *github.com/MarlinFirmware/Marlin/wiki/LCD-Language
+>>>>>>> RC
  *
  * :['JAPANESE', 'WESTERN', 'CYRILLIC']
  */

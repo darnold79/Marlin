@@ -213,6 +213,16 @@
 #define MSG_INFO_MAX_TEMP                   _UxGT("Max Temp")
 #define MSG_INFO_PSU                        _UxGT("Strømfors.")
 
+<<<<<<< HEAD
+#define MSG_DRIVE_STRENGTH                  "Driv Styrke"
+#define MSG_DAC_PERCENT                     "Driv %"
+#define MSG_DAC_EEPROM_WRITE                "DAC EEPROM Skriv"
+
+#define MSG_FILAMENT_CHANGE_HEADER          "SKIFT FILAMENT"
+#define MSG_FILAMENT_CHANGE_OPTION_HEADER   "Skift muligheder:"
+#define MSG_FILAMENT_CHANGE_OPTION_EXTRUDE  "Extruder mere"
+#define MSG_FILAMENT_CHANGE_OPTION_RESUME   "Forsæt print"
+=======
 #define MSG_DRIVE_STRENGTH                  _UxGT("Driv Styrke")
 #define MSG_DAC_PERCENT                     _UxGT("Driv %")
 #define MSG_DAC_EEPROM_WRITE                _UxGT("DAC EEPROM Skriv")
@@ -221,6 +231,7 @@
 #define MSG_FILAMENT_CHANGE_OPTION_HEADER   _UxGT("RESUME OPTIONS:")
 #define MSG_FILAMENT_CHANGE_OPTION_EXTRUDE  _UxGT("Extruder mere")
 #define MSG_FILAMENT_CHANGE_OPTION_RESUME   _UxGT("Forsæt print")
+>>>>>>> upstream/1.1.x
 
 #if LCD_HEIGHT >= 4
   #define MSG_FILAMENT_CHANGE_INIT_1          _UxGT("Vent på start")
