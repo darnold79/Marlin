@@ -448,7 +448,7 @@
   #define DELTA_RADIUS (DELTA_SMOOTH_ROD_OFFSET-(DELTA_EFFECTOR_OFFSET)-(DELTA_CARRIAGE_OFFSET))
 
   // Print surface diameter/2 minus unreachable space (avoid collisions with vertical towers).
-  #define DELTA_PRINTABLE_RADIUS 65.0
+  #define DELTA_PRINTABLE_RADIUS 75.0
 
   // height from z=0.00 to home position
   #define DELTA_HEIGHT 230.0 // get this value from auto calibrate - use G33 C-1 at 1st time calibration
@@ -459,7 +459,7 @@
 
   // set the radius for the calibration probe points - max 0.8 * DELTA_PRINTABLE_RADIUS if DELTA_AUTO_CALIBRATION enabled
   //#define DELTA_CALIBRATION_RADIUS (DELTA_PRINTABLE_RADIUS * 0.7) // mm
-  #define DELTA_CALIBRATION_RADIUS (DELTA_PRINTABLE_RADIUS * 0.5)
+  #define DELTA_CALIBRATION_RADIUS (DELTA_PRINTABLE_RADIUS * 0.55)
 
   // G33 Delta Auto-Calibration (Enable EEPROM_SETTINGS to store results)
   #define DELTA_AUTO_CALIBRATION
